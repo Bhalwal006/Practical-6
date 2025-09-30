@@ -1,0 +1,11 @@
+# Backend files
+/backend/ @org/backend
+
+# Frontend files
+/frontend/ @org/frontend
+
+# JS files anywhere
+*.js @org/frontend
+
+# Overlapping: backend JS
+/backend/*.js @org/backend
