@@ -1,0 +1,12 @@
+name: "Setup Node"
+description: "Setup Node.js environment"
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
